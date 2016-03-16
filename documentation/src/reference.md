@@ -28,7 +28,7 @@ The 360Giving Spreadsheet format consists of a 'grants' sheet which contains the
 The default grants sheet includes sections for:
 
 * Basic information about the grant;
-* Planned and actual dates of activity;
+* Planned dates of the activity;
 * Details of the recipient organisation;
 * Details of the funding organisation;
 * The location of beneficiaries;
@@ -69,6 +69,38 @@ In the first column of each tab you would enter the identifier of the grant to w
 #### Transaction
 
 {{Transaction.csv|Title,Description,Type,Required}}
+
+### Field guidance
+
+#### Dates and times
+
+360Giving allows you to provide information on when a grant was awarded, when a project is taking place, and when you last updated information about aspects of the grant.
+
+There are three different rules for validating dates
+
+##### Award dates
+The ```Award Date``` must provide a full date, including year, month and day in YYYY-MM-DD format (e.g. 2016-04-02 for the 2nd April 2016). 
+
+In some rare cases, an award date might also need to include the time of the grant, using a date-time format (e.g. 2016-04-02T16:45:00Z for a grant made at 4.45 if the afternoon). 
+
+**Tip**: You can set Excel to present a date column in YYYY-MM-DD format using a custom format [as described here](http://superuser.com/questions/409896/how-do-i-enter-dates-in-iso-8601-date-format-yyyy-mm-dd-in-excel-and-have-exc/409899#409899). 
+
+##### Other events
+Other events in the lifetime of a grant, such as the planned dates when the funded activity will take place may include more or less specific dates. Funders should aim to be as specific as they can be, but do not need to guess at the particular day or month when an activity will take place if they do not know. Dates should always be provided in YYYY-(MM)-(DD) format. 
+
+For example, if an application only indicates a project will start in May 2016, then the ```Planned Dates:Start Date``` field may be '2016-05'. 
+
+It is up to users of the data to judge how to interpret dates which only include a year, or year and month. Different applications and analysis may require different judgements. 
+
+##### Last modified dates
+All rows in a 360Giving spreadsheet, and all objects in the JSON structure, can have a ```Last Modified``` date. 
+
+This should always be a full date-time so that if multiple updates take place on a single day, consuming applications can work out which version to use. 
+
+**Tip**: You can set Excel to present a date column as a full date-time using the custom format of "yyyy-mm-ddThh:mm:ssZ". If you set the formula for the column to ```=Now()``` then the last updated value will be refreshed automatically everytime you save the file. 
+
+* **Award Date** - this should be the full date 
+
 
 ### Conformance
 
