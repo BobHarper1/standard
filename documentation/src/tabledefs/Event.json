@@ -1,7 +1,7 @@
 {
  "fields": [
   {
-   "description": "-",
+   "description": "The title of this event",
    "format": "",
    "name": "title",
    "required": true,
@@ -9,20 +9,20 @@
    "type": "string"
   },
   {
-   "description": "All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+   "description": "All events should have a start date. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
    "format": "",
    "name": "startDate",
    "required": false,
    "title": "Start Date",
-   "type": "datetime"
+   "type": "string"
   },
   {
-   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
    "format": "",
    "name": "endDate",
    "required": false,
    "title": "End Date",
-   "type": "datetime"
+   "type": "string"
   },
   {
    "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date.",
@@ -33,7 +33,7 @@
    "type": "string"
   },
   {
-   "description": "-",
+   "description": "A description of this event",
    "format": "",
    "name": "description",
    "required": true,
@@ -41,7 +41,7 @@
    "type": "string"
   },
   {
-   "description": "-",
+   "description": "When was information about this event last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
    "format": "",
    "name": "dateModified",
    "required": false,

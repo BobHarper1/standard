@@ -33,7 +33,7 @@
    "type": "string"
   },
   {
-   "description": "-",
+   "description": "When was the link between this grant and its grant programme last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
    "format": "",
    "name": "dateModified",
    "required": false,

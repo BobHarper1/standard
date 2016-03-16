@@ -4,4 +4,4 @@ Code,code,A codelist value in the chosen vocabulary.,string,,,False
 Title,title,The title of this classification.,string,,,True
 Description,description,A description of this classification.,string,,,True
 URL,url,A web link to more details of this classification.,string,,,False
-Last modified,dateModified,-,datetime,,,False
+Last modified,dateModified,When was this grant classification information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.,datetime,,,False

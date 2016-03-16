@@ -9,7 +9,7 @@
    "type": "string"
   },
   {
-   "description": "The document title",
+   "description": "The document title.",
    "format": "",
    "name": "title",
    "required": true,
@@ -25,7 +25,7 @@
    "type": "string"
   },
   {
-   "description": "A description of the document",
+   "description": "A description of the document.",
    "format": "",
    "name": "description",
    "required": true,
@@ -41,7 +41,7 @@
    "type": "string"
   },
   {
-   "description": "What was this information last modified?",
+   "description": "What was this information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
    "format": "",
    "name": "dateModified",
    "required": false,

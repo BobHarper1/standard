@@ -16,4 +16,4 @@ Email,email,-,string,,,False
 Description,description,A short description of this organisation and its area of work,string,,,True
 Organisation Type,organisationType,A description of this organisation,string,,"Registered Charity,Registered Company,Community Group,List to be updated",False
 Web Address,url,A web address for the Organisation,string,,,False
-Last modified,dateModified,-,datetime,,,False
+Last modified,dateModified,When was the organisation information for this grant last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.,datetime,,,False

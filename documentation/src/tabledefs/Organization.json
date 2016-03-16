@@ -138,7 +138,7 @@
    "type": "string"
   },
   {
-   "description": "-",
+   "description": "When was the organisation information for this grant last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
    "format": "",
    "name": "dateModified",
    "required": false,

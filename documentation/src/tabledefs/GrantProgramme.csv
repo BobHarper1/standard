@@ -3,4 +3,4 @@ Code,code,An identifier for this grant programme.,string,,,False
 Title,title,The title of this grant programme.,string,,,True
 Description,description,A description of this grant programme.,string,,,True
 URL,url,A web link to more details of this grant programme.,string,,,False
-Last modified,dateModified,-,datetime,,,False
+Last modified,dateModified,When was the link between this grant and its grant programme last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.,datetime,,,False

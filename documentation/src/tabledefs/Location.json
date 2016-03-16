@@ -66,7 +66,7 @@
    "type": "string"
   },
   {
-   "description": "The date when location information was last modified.",
+   "description": "When was this location information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
    "format": "",
    "name": "dateModified",
    "required": false,

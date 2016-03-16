@@ -7,4 +7,4 @@ Longitude,longitude,The longitude of a point location,string,,,False
 Description,description,A description of this location. This could include details of the element of the activity that takes place here.,string,,,True
 Geographic Code,geoCode,"A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.",string,,,False
 Geographic Code Type,geoCodeType,"The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).",string,,,False
-Last modified,dateModified,The date when location information was last modified.,datetime,,,False
+Last modified,dateModified,When was this location information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.,datetime,,,False

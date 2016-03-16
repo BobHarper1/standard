@@ -58,12 +58,12 @@
    "type": "number"
   },
   {
-   "description": "When was the decision to award this grant made. Dates should be in YYYY-MM-DD format.",
+   "description": "When was the decision to award this grant made. The date should be written as YYYY-MM-DD, or in full date-time format.",
    "format": "",
    "name": "awardDate",
    "required": true,
    "title": "Award Date",
-   "type": "datetime"
+   "type": "string"
   },
   {
    "description": "A URL (Web Address) where further information about this grant can be found. This could point to the website of the recipient organisation, or might link to further details on the funders website.",
@@ -74,20 +74,20 @@
    "type": "string"
   },
   {
-   "description": "When the applicant / implementing organisation originally intend this activity to take place.  All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+   "description": "When the applicant / implementing organisation originally intend this activity to take place.  All events should have a start date. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
    "format": "",
    "name": "plannedDates[]/startDate",
    "required": false,
    "title": "Planned Dates:Start Date",
-   "type": "datetime"
+   "type": "string"
   },
   {
-   "description": "When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+   "description": "When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
    "format": "",
    "name": "plannedDates[]/endDate",
    "required": false,
    "title": "Planned Dates:End Date",
-   "type": "datetime"
+   "type": "string"
   },
   {
    "description": "When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date.",
@@ -291,7 +291,7 @@
    "type": "string"
   },
   {
-   "description": "The date when information on this grant was last updated",
+   "description": "When was information on this grant last updated? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
    "format": "",
    "name": "dateModified",
    "required": false,

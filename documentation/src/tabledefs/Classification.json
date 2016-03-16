@@ -41,7 +41,7 @@
    "type": "string"
   },
   {
-   "description": "-",
+   "description": "When was this grant classification information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
    "format": "",
    "name": "dateModified",
    "required": false,
